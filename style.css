@@ -1,82 +1,38 @@
-h1 {
-	text-align: center;
-	color:#000000;
-	font-style: italic;
-	}
-	
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 200px;
-  background-color:#D81B60;
-  position: sticky;
-}
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <title>Min Webbplats</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="Myself">
+  <meta name="keywords" content="Intro, Intresse"> 
+  <meta name="author" content="Jag">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="header" id="scroll-container">
+<div id="scroll-text">
+    <a href="https://nutnareenuntipatnon-github-io.translate.goog/webbutveckling/?_x_tr_sl=th&_x_tr_tl=sv&_x_tr_hl=sv&_x_tr_pto=wapp">Klick här för översättning &nbsp; Klick här för översättning &nbsp; Klick här för översättning &nbsp; Klick här för översättning &nbsp; Klick här för översättning</a>
+	</div>
+</div>
 
-li a {
-  display: block;
-  color:#FFC107;
-  padding: 8px 16px;
-  text-decoration: none;
-  font-size:20px;
-  font-weight: bold;
-}
-
-/* Change the link color on hover */
-li a:hover {
-  background-color: #555;
-  color: white;
-}
-
-div#menu {
-  border:2px solid green;
-  width:200px;
-  float:left;
-  margin:10px 0 10px 5px;
-  height:350px;
-}
-
-div#text1 {
-  border:2px solid blue;
-  width:500px;
-  margin:10px 0 10px 235px;
-  min-height:500px;
-  height:500px
-}
-
-body, html{
-    padding:0;
-    margin:0;
-    position:relative;
-    height:100%
-}
-.header, .footer{
-    width:100%;
-    background:#ccc;
-    padding:10px;
-    box-sizing:border-box;
-}
-.content{
-    background:#eee;
-    width:100%;
-    padding:10px;
-    height:100%;
-    box-sizing:border-box;
-    padding:10px;
-}
-.left{
-    width:auto;
-	float:left;
-    background:#FFFFFF;
-    height:100%;
-}
-.right{
-    width:83.5%;
-	float:right;
-    background:#FFFFFF;
-    height:100%;
-	text-align: center;
-}
+<div class="content">
+    <div class="left">
+	<ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="vad.html">Vad</a></li>
+            <li><a href="varfor.html">Varför</a></li>
+            <li><a href="fragor.html">Frågor</a></li>
+        </ul>
+	</div>
+    <div class="right">
+	<h1>Välkommen till min webbplats!</h1>
+	Denna webbplats skapades till webbutveckling 1. 
+	<br>Dess mål är att vara tillgänglig webbplats.
+	<br><br><img src="https://post.healthline.com/wp-content/uploads/2023/07/male-covering-eye-rainbow-1296-728-header.jpg" alt="colorblindness"
+	</div>
+</div>
+</body>
+</html>
 
 img {
   width: 50%;
